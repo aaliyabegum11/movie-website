@@ -2,125 +2,121 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Movie Collection</title>
-
-    <style>
-        body {
-            background-color: #141414;
-            color: white;
-            font-family: Arial, sans-serif;
-            margin: 0;
-        }
-
-        header {
-            background-color: #1b1b1b;
-            padding: 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            color: #f5c518;
-        }
-
-        .container {
-            width: 85%;
-            margin: 30px auto;
-        }
-
-        .movie {
-            display: flex;
-            background-color: #252525;
-            padding: 20px;
-            border-radius: 10px;
-            gap: 25px;
-        }
-
-        .movie img {
-            width: 220px;
-            border-radius: 8px;
-        }
-
-        .movie-info h2 {
-            color: #f5c518;
-        }
-
-        .rating {
-            color: #f5c518;
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        .details {
-            color: #bbbbbb;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: gray;
-        }
-    </style>
+    <title>CineScope - Movie Collection</title>
 </head>
 
-<body>
+<body bgcolor="#151515" text="white">
 
-    <header>
-        <h1>MY MOVIE COLLECTION</h1>
-        <p>Explore movies and discover their stories</p>
-    </header>
+    <center>
+        <h1><font color="orange">CINESCOPE</font></h1>
+        <h3>Your Personal Movie Database</h3>
+        <p>Explore movies, stories and cinema</p>
+        <hr>
+    </center>
 
-    <div class="container">
+    <h2><font color="orange">Featured Movies</font></h2>
 
-        <h2>Featured Movie</h2>
+    <table border="1" cellpadding="15" cellspacing="5"
+           width="100%">
 
-        <div class="movie">
+        <tr>
+            <td width="30%" align="center">
+                <img src="https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg"
+                     width="180"
+                     alt="Inception poster">
+            </td>
 
-            <img src="https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg"
-                 alt="Inception Movie Poster">
+            <td>
+                <h2><font color="orange">1. Inception (2010)</font></h2>
 
-            <div class="movie-info">
-
-                <h2>Inception (2010)</h2>
-
-                <p class="rating">★ 8.8/10</p>
-
-                <p class="details">
-                    Sci-Fi | Action | Adventure
-                </p>
-
+                <p><b>Rating:</b> 8.8/10</p>
+                <p><b>Genre:</b> Sci-Fi, Action, Thriller</p>
                 <p><b>Director:</b> Christopher Nolan</p>
+                <p><b>Cast:</b> Leonardo DiCaprio, Tom Hardy,
+                Joseph Gordon-Levitt</p>
+                <p><b>Duration:</b> 148 minutes</p>
 
-                <p><b>Cast:</b> Leonardo DiCaprio,
-                Joseph Gordon-Levitt, Elliot Page,
-                Tom Hardy</p>
-
-                <p><b>Duration:</b> 2 hours 28 minutes</p>
-
-                <p><b>Release Date:</b> 16 July 2010</p>
-
-                <h3>Movie Overview</h3>
-
+                <h3>About the Movie</h3>
                 <p>
-                    Inception follows Dom Cobb, a skilled thief
-                    who enters people's dreams to steal their
-                    secrets. He is given a challenging mission
-                    to plant an idea inside someone's mind
-                    instead of stealing one.
+                    A skilled thief enters people's dreams to
+                    steal information. He receives an unusual
+                    mission that challenges his understanding
+                    of dreams and reality.
                 </p>
+            </td>
+        </tr>
 
-                <p><b>Language:</b> English</p>
+        <tr>
+            <td width="30%" align="center">
+                <img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+                     width="180"
+                     alt="The Dark Knight poster">
+            </td>
 
-                <p><b>Country:</b> United States</p>
+            <td>
+                <h2><font color="orange">2. The Dark Knight (2008)</font></h2>
 
-            </div>
+                <p><b>Rating:</b> 9.0/10</p>
+                <p><b>Genre:</b> Action, Crime, Drama</p>
+                <p><b>Director:</b> Christopher Nolan</p>
+                <p><b>Cast:</b> Christian Bale, Heath Ledger,
+                Aaron Eckhart</p>
+                <p><b>Duration:</b> 152 minutes</p>
 
-        </div>
+                <h3>About the Movie</h3>
+                <p>
+                    Batman faces a dangerous criminal known
+                    as the Joker, who creates chaos across
+                    Gotham City and challenges its citizens.
+                </p>
+            </td>
+        </tr>
 
-    </div>
+        <tr>
+            <td width="30%" align="center">
+                <img src="https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg"
+                     width="180"
+                     alt="Interstellar poster">
+            </td>
 
-    <footer>
-        <p>My Movie Collection | Created using HTML and CSS</p>
-    </footer>
+            <td>
+                <h2><font color="orange">3. Interstellar (2014)</font></h2>
+
+                <p><b>Rating:</b> 8.7/10</p>
+                <p><b>Genre:</b> Sci-Fi, Adventure, Drama</p>
+                <p><b>Director:</b> Christopher Nolan</p>
+                <p><b>Cast:</b> Matthew McConaughey,
+                Anne Hathaway, Jessica Chastain</p>
+                <p><b>Duration:</b> 169 minutes</p>
+
+                <h3>About the Movie</h3>
+                <p>
+                    A group of explorers travels through
+                    space in search of a new home for humanity
+                    as Earth faces an environmental crisis.
+                </p>
+            </td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <center>
+        <h3><font color="orange">About CineScope</font></h3>
+        <p>
+            CineScope is an independent movie collection
+            created to explore films, their stories,
+            directors and actors.
+        </p>
+
+        <p>Created using HTML | 2026</p>
+    </center>
 
 </body>
 </html>
+
+      
+
+                
+                
